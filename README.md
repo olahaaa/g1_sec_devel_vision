@@ -12,9 +12,13 @@
 
 
 ## /src
+### recognize_aptag
 img_sub_node 静态图像订阅测试
 tfsub_node 订阅tf变化测试
+### g1_demo
+move_demo 追踪控制节点
+
 
 ## /launch
-aptag_recog_demo.launch.py 摄像头测试
+aptag_recog_demo.launch.py 识别测试
 img_show_demo.lanch.py 图像订阅测试

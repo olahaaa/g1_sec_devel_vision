@@ -42,13 +42,13 @@ def generate_launch_description():
     )
 
 
-    tf_sub_node = Node(
-        package='recognize_aptag_demo',
-        executable='tfsub_node',
-        namespace='self_demo',
-        name='tfsub_node',
-        output='screen',
-    )
+    # tf_sub_node = Node(
+    #     package='recognize_aptag_demo',
+    #     executable='tfsub_node',
+    #     namespace='self_demo',
+    #     name='tfsub_node',
+    #     output='screen',
+    # )
 
     return LaunchDescription([
         LogInfo(msg='开始订阅realsense rgb图像'),
