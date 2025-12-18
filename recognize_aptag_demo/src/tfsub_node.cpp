@@ -18,11 +18,7 @@ private:
   {
 
     RCLCPP_INFO(this->get_logger(), "Received %zu transform(s)", msg->transforms.size());
-
-    
-
     // 遍历所有变换并打印详细信息
-
     for (const auto& transform : msg->transforms) {
       RCLCPP_INFO(this->get_logger(), 
         "\nTransform from '%s' to '%s':\n"
